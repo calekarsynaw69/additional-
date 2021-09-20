@@ -1,0 +1,2 @@
+# additional-
+; Displays a 1D or 2D array in a virtual ListView Func _ArrayDisplayEx( _   $aArray, _          ; 1D/2D array eg. StringSplit("Mo,Tu,We,Th,Fr,Sa,Su", ",")   $sTitle = "", _     ; GUI title bar text, default title is set to "ArrayDisplayEx"   $sHeader = "", _    ; ListView header column names, default is "Col0|Col1|Col2|...|ColN"   $iFlags = 0x0000, _ ; Set additional options through flag values   $aFeatures = "" )   ; 2D array of feature type/info pairs
